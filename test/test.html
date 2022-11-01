@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div id="main">
+            <h1>JavaScript DOM</h1>
+            <p class="hello">Hello world</p>
+        </div>
+        <script>
+            // document.write(document.documentElement.getAttribute("lang"))
+            // document.body.style.background = "powderblue"
+            // document.write(document.head.firstElementChild.nodeName)
+
+            // document.getElementsByTagName("p")[1].style.color = "red"
+            // element.style.color = "blue"
+            // element.style.fontSize = "40px"
+            // element.style.fontWeight = "bold"
+
+            // //Creating a new div
+            // let newDiv = document.createElement("div")
+            // //creating a text node
+            // let newContent = document.createTextNode("Hi, how are you doing?")
+            // //adding the newly created text node to the newly created div
+            // newDiv.appendChild(newContent)
+            // //adding the newly created element and its content into the DOM
+            // let currentDiv = document.getElementById("main")
+            // document.body.appendChild(newDiv, currentDiv)
+
+
+            //getting innerHTML contents
+            let contents = document.getElementById("main").innerHTML
+            //outputs inner html contents
+            document.write(contents)
+            //Setting inner HTML contents
+            let mainDiv = document.getElementById("main")
+            mainDiv.innerHTML = "<p>This is a <em>newly inserted</em> paragraph</p>"
+        </script>
+    </body>
+
+</html>

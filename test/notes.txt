@@ -1,0 +1,206 @@
+HTML
+
+- HTML stands for HyperText Markup Language.
+- Markup language for creating web pages.
+- Describes the structure of a web page.
+- Consists of elements
+- An HTML element is everything from the start tag to the end tag and is defined by such and sometimes by content.
+- Web browsers read HTML documents.
+- Different versions of HTML have existed, ranging from HTML to HTML5.2
+
+- The <!DOCTYPE html> declaration
+All HTML documents must start with this document type declaration and must appear only once. It helps browesers to display webpages.
+
+- HTML Headings
+These are defined with the <h1> to <h6>, with <h1> being the most important and <h6> being the least important.
+
+- HTML Paragraphs
+These define paragraphs with the <p> tag.
+
+- HTML Links
+These define links with the <a> tag.
+
+- HTML Images
+These define pictures in the document with the <img> tag. The attributes provided in the tag include the source file(src), text that would show if the page did not load; alternative text (alt), the width of the image(width) and the height of the picture(height)
+
+- HTML Elements can be nested in each other
+
+HTML Attributes
+- All HTML elements can have attributes
+- They provide additional information about Elements
+- They are always specified in the starting tag.
+- They usually come in name/value pairs like name = "value"
+
+- In the hyperlink tag the "href" attribute specifies the URL of the page the link to.
+- In the image tag the "src" atrribute specifies the path to the image to be displayed, the "width" and "height" atributes specify the width and height of the image, the "alt" attribute specifies the altenate text for an image.
+- For inline styling, the style attribute is used to style an element.
+- In the html tag, the "lang" attribute declares the language used in the document.
+- In any element, the title attribute gives some extra information about an element.
+
+HTML Headings
+- These are titles/subtitles that you want to display on a webpage.
+- They are defined with the <h1> to <h6> tags.
+- You can use inline styling to specify the size of any heading with the style attribute, using the CSS font-size property.
+
+HTML Praragraphs
+- A paragraph always starts one new line, and browsers automatically add a margin before and after a paragraph.
+- The "hr" tag draws a horizontal rule on the HTML page and is used to separate content in an HTML page.
+- The "br" tag defines a line break.
+- The "pre" tag element defines a preformatted text. It displays text in a fixed - width font (usually Courier), and it preserves both spaces and line breaks.
+
+HTML Style Attribute
+- It is used to add styles to an element.
+- It has the CSS property called "property" and the CSS value called "value".
+- There exists the background-color property that defines the background color for an HTML element.
+- The color porperty defines the text color for an HTML element.
+- The CSS font-family property defines the font to be used to be used.
+- The CSS font-size property defines the text size for an HTML element.
+- The text align property defines the horizontal text alignement for an HTML element.
+
+HTML Text Formatting
+These elements were designed to display special types of text. The elements that exist include, bold, strong, italic, emphasized, marked, smaller, deleted, inserted, subscript, superscript and others
+
+HTML Blockquote and Citation Element
+- The HTML <blockquote> element defines a section that is quoted from another source and are usually indented in web browsers. It can take the "cite" property.
+- <q> tag defines a short quotation.
+- <abbr> tag defines an abbreviation. The global title attribute is used with this tag to show the description for the abbreviation.
+- The <address> tag defines the contact information for the author. This text is usually rendered in italic in the browser.
+- The <cite> tag defines the title of a creative work and is usually renders in italic.
+- The <bdo> tag is used to override the current text direction. BDO stands for Bi-Directional Override.
+
+HTML Comment Tag
+This is used to add comments in your HTML source code.
+
+HTML Colors
+- These colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+- Colors can be specified by using a color name.
+- The RGB color value represents different amounts of RED, GREEN, and BLUE.
+    Such colors can be specified by using the formula: rgb(red, green, blue). Shades of grey are often defined using equal values for all three parameters.
+    Each parameter defines the intensity of the color with a value between 0 and 255.
+- The RGBA color value is an extension of RGB with an Alpha channel(opacity).
+    RGBA is specified with rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)
+- The HEX Color is specified with: #RRGGBB where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.
+    The hexadecimalvalues are between 00 and ff.
+- The HSL Color stands for hue, saturation and lightness.
+    It can be specified with the form hsl(hue, saturation, lightness)
+    Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green and 240 is blue.
+    Saturation is a percentage value to describe the intensity of a color. 0% means a shade of grey, and 100% is the full color.
+    Lightness is also a precentage value that describes how much light you want to give the color. 0% is black and 100% is white.
+-The HSLA color values are an extension of HSL with an Alpha channel (opacity)
+
+HTML Styles - CSS
+CSS stands for Cascading Style Sheets, it is used to style webpages.
+External style sheets can be referenced with a full URL or with a path relative to the current web page.
+CSS can be 
+        - Inline: by using the style attribute inside HTML elements.
+        - Internal: by using a style element in the head section.
+        - External: by using a link element to link to an external CSS file. (most common)
+- The CSS color property defines the color to be used.
+- The CSS font-family property defines the font to be used.
+- The CSS font-size property defines the text size to be used.
+- The CSS border property defines a border around an HTML element.
+- The CSS padding property defines a padding between the text and the border.
+- The CSS Margin property defines a margin outside the border.
+
+HTML Links
+HTML Links are hyperlinks and is defined by the "a" tag.
+- The most important attribute of the <a> element is the "href" attribute, which indicates the link's destination.
+- There exists a target attribute which specifies where to open the linked document and can one of the following values:
+    - The self value opens the document in the same window/tab as it was clicked.
+    - The blank value opens the document in a new window or tab.
+    - The parent value opens the document in the parent frame.
+    - The top value opens the document in the full body of the window.
+- Absolute URL is a url with a full web address.
+- A relative URL is a url with a local link.
+- Use mailto: inside the href attribute to create a link that opens the user's email program.
+- Use the onclick value to specify what happens at certain events in javascript with other values.
+- The title attribute specifies extra information about an element which is often shown as a tooltip text when the mouse omves over the element.
+
+HTML Images
+- The HTML <img> tag is used to embed an image in a web page.
+- The src attribute specifies the path (URL) to the image.
+- The alt attribute provides an alternate text for an image.
+- Using the CSS float property allows the image float to the right or to the left of a text
+- A <map> tag defines an image map. This is an image with clickable areas. The areas are defined with one or more <area> tags.
+- The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
+- The usemap value starts with a hash tag followed by the name of the image map, and is used to create a relationship between the image and the image map.
+- The name attribute in the map tag must have the same value as the image's usemap attribute.
+- The clickable area is defined using an area element.
+- One must also define the shape of the clickable area. One can choose one of these values:
+    -rect: defines a rectangular region
+    The coordinates for this value come in pairs, one for the x-axis and one for the y-axis.
+    -circle: defines a circular region
+    To add a circle area, first locate the cordinates of the center of the circle and specify the radius circle.
+    -poly: defines a polygonal region
+    This value contains several coordinate points, which creates a shape formed with straight lines. Find the x and y coordinates for all edges of the croissant.
+    -default: defines the entire region
+- A clickable area can also trigger a javascript function.
+- A picture tag defines a container for multiple image resources.
+- The background image property can take the value of 
+    -repeat: repeats the background picture continually until it reaches the end of the element.
+    -no-repeat: prevents the background image from repeating itself
+- The background size property can take the value of cover which would cover the entire element. In order to make dure the entire element is always covered, set the background-attachment property to fixed.
+- Setting the background-size to 100% on both sides stretches the image to fit the entire element
+- The picture element allows you to display different pictures for different devices or screen sizes.
+    - It gives web developers more flexibility in specifying image resources.
+    -It contains one or more <source> elements, each referring to different images through the srcset attribute. This allows the web browser to choose the image that best fits the current view and/or device.
+    -Each source element has a media attribute that defines when the image is the most suitable.
+    -An img element is always specified as the last child element of the picture tag.
+- The two main purposes of the picture element:
+    1. Bandwidth: in order to not load a large image file for small screen devices.
+    2. Format Support: images of all formats can be added to choose from. 
+
+Favicon
+A favicon is a small image displayed next to the page title in the browser tab.
+In order to add it, add a <link> element to your html file after the <title> element in the head tag.
+
+HTML Tables
+-It allows web developers to arrange data into rows and columns.
+-It consists of table cells inside rows and columns.
+-Each data cell is defined by a <td> tag. The td stands for table datacell.
+-Each table row is defined by a <tr> tag. The tr stands for table row.
+-Each table header is defined by the <th> tag.
+-Each table caption is defined by the <caption> tag.
+-Each column properties for each column within a <colgroup> element.
+-Each group of one or more columns in a table for formatting is defined by the <colgroup>
+-The <thead> tag groups the header content in a table.
+-The <tbody> tag groups the body content in a table.
+-The <tfoot> tag groups the footer content in a table.
+-Using the style attribute with the width or height property to specify the size of a table, row or column.
+-To use the first column as table headers, define the first cell in each row as <th>
+-To have a header that spans over two or more colums, the colspan attribute is used in the <th> element.
+-To make a cell span over multiple rows, use the rowspan attribute
+-If you want to style the two first columns of a table, use the <colgroup> and <col> elements.
+The <colgroup> element should be used as a container for the column specifications and is specified with a <col> element, the span attribute specifies how many columns that get a style and the style attribute specifies a style to give the columns.
+If you want to style more columns with different styles, use more <col> elements inside the <colgroup>.
+If you want to style columns in the middle of a table, insert a "empty" <col> element (with no styles) for the columns before
+
+HTML Lists
+- An unordered list starts with the <ul> tag and contains items that start with <li> tag and are marked with bullets.
+    -The CSS list-style-type property is used to define the style of the list item marker
+        - disc: sets the list item marker to a bullet(default)
+        - circle: sets the list item marker to a circle
+        - square: sets the list item marker to a square
+        - none: the list items will not be marked
+- An ordered list starts with the <ol> tag and also contain items that start with <li> tag and are marked with numbers by default.
+    - The type attribute of this list tag defines the type of the list item marker:
+        - type="1" : lists items with numbers
+        - type="A" : lists items with uppercase letters
+        - type="a" : lists items with lowercase letters
+        - type="I" : lists items with uppercase roman numbers
+        - type="i" : lists items with lowercase roman numbers
+    -To start a list from a specified number, use the start attribute.
+- A description list is a list of terms with each description of each term.
+    - A <dl> tag defines the defines the description list.
+    - The <dt> tag defines the term (name), and the <dd> tag describes each term.
+- Lists can be nested inside each other.
+
+HTML Block and Inline Elements
+- Block Level Elements
+    - A block-level element always starts on a new 
+
+
+
+
+
+
